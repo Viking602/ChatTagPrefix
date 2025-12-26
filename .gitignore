@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.launch
+.settings/
+.metadata
+.classpath
+.project
+bin/
+
+# Forge
+run/
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated
+src/generated/

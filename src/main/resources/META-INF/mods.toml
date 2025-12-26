@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="chattagprefix"
+version="1.0.0"
+displayName="Chat Tag Prefix"
+authors="viking"
+description='''
+Reads tagprefix from TAB plugin config and displays it in chat messages.
+从 TAB 插件配置读取 tagprefix 并显示在聊天消息前。
+'''
+
+[[dependencies.chattagprefix]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.chattagprefix]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
